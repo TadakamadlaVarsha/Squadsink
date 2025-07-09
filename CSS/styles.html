@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styles</title>
+    <style>
+        *{
+            color: red;
+        }
+        .first{
+            color: aqua;
+        }
+        #name{
+            color: pink;
+        }
+        p,h1,h2{
+            color: darkmagenta;
+        }
+        a:link{
+            color: violet;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            background-color: green;
+        }
+        li:first-child{
+            color:  yellow;
+        }
+        li:last-child{
+            background-color: green;
+        }
+        li:nth-child(2){
+            color: grey;
+        }
+        .download::before{
+            content:"this";
+        }
+        .download::after{
+            content: "this is my webpage"
+        }
+        .download::first-letter{
+            color: bisque;
+        }
+       [class^="download"]{
+        background-color: blue;
+       }
+       [href*=pe]{
+        background-color: rgb(24, 24, 24);
+       }
+
+
+    </style>
+</head>
+<body> 
+    <p>this is my first para</p>
+    <h1 class="first" id="name">this is my webpage</h1>
+    <h2>this is my second para</h2>
+    <a href="https://images.pexels.com/photos/31701360/pexels-photo-31701360.jpeg">girlimage</a>
+    <a href="https://images.pexels.com/photos/32703696/pexels-photo-32703696.jpeg">swanimage</a>
+    <a href="https://images.pexels.com/photos/32809805/pexels-photo-32809805.jpeg">chairimage</a>
+    <ul>
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+    <li>list4</li>
+    </ul>
+    <p class="download">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut soluta quia voluptate explicabo distinctio tenetur doloremque rem dolore, quas praesentium ab voluptas repudiandae, architecto aliquam obcaecati, sit mollitia fugit esse!</p>
+
+</body>
+</html>
